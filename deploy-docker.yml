@@ -45,7 +45,7 @@
 
   - name: starting the container
     docker_container:
-      name: myapp
+      name: hariapp
       image: "anushadasai/hariapp:{{DOCKER_TAG}}"
       state: started
       published_ports:
